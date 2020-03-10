@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "http-server": "^0.12.1",
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {
+    "start:signaler": "node signaler/index.js",
+    "start:peers": "npx http-server"
+  }
+}
